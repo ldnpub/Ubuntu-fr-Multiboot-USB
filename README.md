@@ -1,5 +1,7 @@
 # Fichiers de configuration pour la clé USB Ubuntu-fr Mulitiboot
 
+[Ubuntu-fr](https://ubuntu-fr.org/)
+
 **Cette clé fonctionne à la fois sur les BIOS et les UEFI**
 
 ## Liste des systèmes disponibles:
@@ -48,6 +50,7 @@ Plus d'informations sur les recommendations [ici](https://ubuntu-mate.org/about/
 
 #### Bodhi Linux
 **Ce systèmes sera le seul à pouvoir fonctionner une une ordinateur ayant un processeur 32 Bits**
+
 Pour savoir si votre processeur est 32 ou 64 Bits c'est [ici](https://forum.ubuntu-fr.org/viewtopic.php?id=1556971)
 
 Plus d'informations sur les recommendations [ici](https://ubuntu-mate.org/about/requirements/)
