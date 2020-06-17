@@ -11,6 +11,7 @@
 * Kubuntu 20.04 LTS
 * Ubuntu-Mate 20.04 LTS
 * Bodhi Linux 5.1
+* Et d'autres
 
 ### Quelques précisions concernant quelle version installer
 

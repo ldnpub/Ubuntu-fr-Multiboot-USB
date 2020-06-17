@@ -1,17 +1,22 @@
-# Création de la clé
+# Création de la clé avec persistence
 
-Utilisation de la version UEFI de l'outil YUMI.
+Boot the Live usb with persistence. Instructions for the Cinnamon desktop:
 
-[https://www.pendrivelinux.com/yumi-multiboot-usb-creator/](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/)
+- disable autologin
+System Settings > Login Window > Auto login > disable Automatic Login, disable Timed Login
 
-Bien sûr tout ceci fonctionne parfaitement sur windows.
+- create a new user account
+System Settings > Users and Groups > Add, Account Type Administrator, fill in Full name and Username, Add > Left clic user created, left click No password set to change password otherwise ecryptfs will not work.
 
-**Pour une utilisation sur linux il y a besoin d'utiliser _WINE_**
+- open a terminal to migrate the new user account to ecryptfs encryption, replace laurent with the username created:
 
-```
-wine64 YUMI-UEFI-0.0.2.1.exe
-```
+Code: Select all
 
-La suite des instructions se trouvent ici:
+sudo ecryptfs-migrate-home -u laurent
 
-[![YUMI ](http://img.youtube.com/vi/mZB8gwkBtvA/0.jpg)](http://www.youtube.com/watch?v=mZB8gwkBtvA)
+Done :!:
+
+Close your session and Log in as new user, home user files are now encrypted through ecryptfs.
+
+
+

@@ -1,6 +1,0 @@
-xubuntu-18.04.4-desktop-amd64
-kubuntu-18.04.4-desktop-amd64
-ubuntu-mate-18.04.4-desktop-i386
-ubuntu-mate-18.04.4-desktop-amd64
-bodhi-5.0.0-64
-ubuntu-18.04.4-desktop-amd64
