@@ -6,16 +6,19 @@
 
 ## Liste des systèmes disponibles:
 
-* Ubuntu 20.04 LTS
-* Xubuntu 20.04 LTS
-* Kubuntu 20.04 LTS
-* Ubuntu-Mate 20.04 LTS
+* Ubuntu 20.04 LTS  (Gnome 3 / Gnome Shell)
+* Xubuntu 20.04 LTS (Xfce)
+* Kubuntu 20.04 LTS (KDE)
+* Lubuntu 20.04 LTS (LxQt)
+* Ubuntu-Mate 20.04 LTS (Gnome 2)
+* Ubuntu-Mate 18.04 LTS **32Bits**
 * Bodhi Linux 5.1
 * Et d'autres
 
 ### Quelques précisions concernant quelle version installer
 
-Les versions de Ubuntu, Kubuntu, Xubuntu, sont des versions 64 Bits.
+Les versions de Ubuntu, Kubuntu, Xubuntu, Lubuntu et Ubuntu-Mate 20.04 sont des versions 64 Bits.
+Si vous avez besoin d'une version 32 bits il faudra utiliser Ubuntu-Mate 18.04
 
 #### Ubuntu
 Plus d'informations sur les recommendations [ici](https://help.ubuntu.com/community/Installation/SystemRequirements)
