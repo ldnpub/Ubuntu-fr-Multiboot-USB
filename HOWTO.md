@@ -18,5 +18,8 @@ Done :!:
 
 Close your session and Log in as new user, home user files are now encrypted through ecryptfs.
 
-
-
+## Essayer la CLE sans redémarrer:
+```
+sudo apt install qemu-system-x86_64
+sudo qemu-system-x86_64  -m 2048 -usb /dev/sdb1
+```
