@@ -52,7 +52,7 @@ Plus d'informations sur les recommendations [ici](https://ubuntu-mate.org/about/
     25 GB de dusque dur
     VGA 1024x768
 
-#### Bodhi Linux
+#### Ubuntu-Mate 18.04
 **Ce systèmes sera le seul à pouvoir fonctionner une une ordinateur ayant un processeur 32 Bits**
 
 Pour savoir si votre processeur est 32 ou 64 Bits c'est [ici](https://forum.ubuntu-fr.org/viewtopic.php?id=1556971)
